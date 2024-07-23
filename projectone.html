@@ -4,47 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Your Website Title</title>
-<style>
-    /* Add your CSS styles here */
-        /* Example: */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #444;
-            text-align: center;
-            padding: 10px 0;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 0 15px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+<link rel="stylesheet" href="styles.css">
+ 
+
 </head>
 <body>
 
@@ -52,50 +14,58 @@
     <h1>Your Website Name/Logo</h1>
 </header>
 
-<nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#work">Work</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
+<center> 
+    <br> 
+    
+    <nav>
+    <a href="#home"> <b>Home    </b></a> 
+    <a href="#about"> <b>About   </b></a>
+    <a href="#work"> <b>Work     </b></a>
+    <a href="#resume"><b>Resume   </b></a>
+    <a href="#contact"><b>Contact    </b></a>
 </nav>
 
-<section id="home">
-    <h2>Home</h2>
-    <p>Welcome to our website!</p>
-</section>
+</center>
+<div>
+    <section class="style">
 
-<section id="about">
+    </section>
+
+<section class="style">
     <h2>About</h2>
-    <p>Replace this text with information about yourself or your company.</p>
+    <p> <b>Replace this text with information about yourself or your company.</b> </p>
 </section>
-
-<section id="work">
+</div>
+<span>
+<section class="style">
     <h2>Work</h2>
-    <p>Replace this text with your work experience or portfolio.</p>
+    <p> <b> this text with your work experience or portfolio. </b></p>
 </section>
 
-<section id="resume">
+<section class="style">
     <h2>Resume</h2>
-    <p>Replace this with your resume content.</p>
+    <p><b> this with your resume content.</b></p>
 </section>
 
-<section id="contact">
+</span>
+
+
+<section class="style">
     <h2>Contact</h2>
     <!-- Example form -->
     <form action="/submit-form" method="POST">
-        <label for="name">Name:</label><br>
+        <label for="name" class="info">Name:</label><br>
         <input type="text" id="name" name="name" required><br>
-        <label for="email">Email:</label><br>
+        <label for="email" class="info">Email:</label><br>
         <input type="email" id="email" name="email" required><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <label for="message" class="info">Message:</label><br>
+        <textarea id="name" name="message" rows="4" required></textarea><br>
         <button type="submit">Submit</button>
     </form>
 </section>
-
+</div>
 <footer>
-    <p>&copy; 2024 Your Name / Your Company</p>
+    <p>&copy; <strong> 2024 Your Name / Your Company </strong></p>
 </footer>
 
 </body>

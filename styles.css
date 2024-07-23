@@ -1,0 +1,55 @@
+ 
+ body { 
+    text-align-last: auto;
+    color: #0f0f0f;
+     background-image:url("background.jfif");
+        background-size: cover
+
+
+}
+
+
+
+
+
+
+ nav a { color: #201f25;
+    background-color: rgba(47, 45, 48, 0.144);
+    border-style: double;
+    font-size: xx-large;
+
+}
+
+header {
+    text-align: center;
+
+    border-style: solid;
+
+    background-color: rgb(194, 126, 171);
+
+    color: #fff;
+}
+
+
+.style h2 {
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+.style p {
+    font-size: x-large;
+}
+.info { color: #fff
+}
+section h2 { text-decoration: underline;
+
+
+}
+
+
+footer {
+         color: rgb(194, 126, 171);
+          font-size: large;
+        text-align: end;
+
+}
